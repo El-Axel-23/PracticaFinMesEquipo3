@@ -38,5 +38,8 @@
         app:layout_constraintTop_toBottomOf="@id/spCarrera"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/item_curso" />
 </androidx.constraintlayout.widget.ConstraintLayout>
