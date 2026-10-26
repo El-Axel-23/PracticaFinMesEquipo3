@@ -2,7 +2,7 @@ package com.example.practicafinmesequipo3.modelo
 
 object RetrofitCliente{
 
-    private const val BASE_URL = ""
+    private const val BASE_URL = "h"
 
     private  val jsonConfig=Json{
         ignoreUnknownKeys=true
